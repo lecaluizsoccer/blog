@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1em 1fr 1em;
+    grid-auto-rows: auto;
+    grid-template-areas:
+        "a a a"
+        ".. b .."
+        ".. c .."
+        ".. d .."
+        ".. e .."
+        ".. f .."
+        ".. g .."
+        ;
+    gap: 0 1em;
+}
+
+.img-blog {
+    padding-bottom: 1em;
+
+}
+
+.blog-1 {
+    grid-area: a;
+    background-image: url(./images/sunset.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 20em; /* fixed height for consistency */
+    margin-bottom: 2em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    color: #D7D7D7;
+    padding: 0 2em 1em;
+    font-size: 0.75rem;
+    text-shadow:  0.016em  0.016em black;
+}
+
+.blog-1 p {
+    font-weight: 600;
+}
+
+.blog-2 {
+    grid-area: b;
+}
+.blog-3 {
+    grid-area: c;
+}
+.blog-4 {
+    grid-area: d;
+}
+.blog-5 {
+    grid-area: e;
+}
+.blog-6 {
+    grid-area: f;
+}
+.blog-7 {
+    grid-area: g;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.date {
+    display: block;
+    margin-top: 0.5em;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.home {
+    margin: 0 2em 0 auto;
+}
+
+.learning a{
+    margin-left: 1em;
+    font-size: 0.85rem;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+
+}
+
+.about {
+    margin-right: 1em;
+}
+
+nav {
+    padding: 1.25em;
+    background-color: #FFFFFF;
+    margin: 0;
+    font-size: 0.65rem;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.view-more a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.view-more {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5em;
+   
+}
+
+footer {
+    display: flex;    
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    background-color: #202020;
+     color: #D7D7D7;
+}
+
+
+@media (min-width: 768px){
+  .img-blog {
+    max-width: 100%;
+
+  }
+  main {
+    display: grid;
+    grid-template-columns: 2em 1fr 1fr 1fr 2em;
+    grid-auto-rows: auto;
+    grid-template-areas:
+      "a a a a a"
+      ". b c d ."
+      ". e f g ."
+      ;
+ 
+  }
+
+ .blog-1 { 
+    font-size: 1.25rem;
+    text-shadow:  0.016em  0.016em black;
+    height: 25em;
+ }
+
+ .blog-1 p {
+    font-weight: 900;
+}
+
+  nav {
+    font-size: 1rem;
+
+}
+
+.learning a{
+    font-size: 1.25rem;
+}
+
+}
+
