@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.home-main {
+    display: grid;
+    grid-template-columns: 1em 1fr 1em;
+    grid-auto-rows: auto;
+    grid-template-areas:
+    ".. the .."
+    ".. tim .."
+    ".. mpar .."
+    ".. rpo .."
+    ".. b1 .."
+    ".. b2 .."
+    ".. b3 .."
+    ;
+
+     gap: 0 1em;
+}
+
+p {
+    font-size: 1rem;
+}
+
+
+.top-header {
+    grid-area: the;
+    width: 100%;
+}
+
+.top-header h1 {
+    padding: 0.35em 0;
+    font-size: 2rem;
+}
+
+date {
+    font-size: 0.75rem;
+}
+
+.top-header p {
+    padding-bottom: 1.25em;
+
+}
+
+.top-img {
+    grid-area: tim;
+
+}
+
+.mid-paragraph {
+    grid-area: mpar;
+    font-size: 0.75rem;
+}
+
+.recent-posts {
+    grid-area: rpo;
+    text-align: center;
+    padding: 3em 0 0.5em;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.home-blog-1 {
+    grid-area: b1;
+}
+
+.home-blog-2 {
+    grid-area: b2;
+}
+
+.home-blog-3 {
+    grid-area: b3;
+}
+
+.blog-title {
+    font-size: 1.625rem;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.mid-paragraph h2{
+    padding: 0.5em 0;
+}
+
+.home-blog {
+    padding: 1em 0;
+    font-size: 0.75rem;
+}
+
+.home-blog h2 {
+    padding: 0.5em 0
+}
+
+.home-blog img {
+    padding-bottom: 0.75em;
+}
+
+
+
+@media (min-width: 768px) {
+     
+    .home-main  {
+        grid-template-columns: 2em 1fr 1fr 1fr 2em;
+        grid-auto-rows: auto;
+        grid-template-areas:
+        ".. the the the .."
+        ".. tim tim tim .."
+        ".. mpar mpar mpar .."
+        ".. rpo rpo rpo .."
+        ".. b1 b2 b3 .."
+        ;
+
+        gap: 0 1em;
+    }
+}
