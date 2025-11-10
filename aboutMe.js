@@ -2,7 +2,6 @@ import { profileData, blogPosts, fateData } from "./data.js";
 
 let midParaAbout = document.querySelector(".mid-paragraph-about");
 
-
 function topHeader() {
   const aboutHeader = document.querySelector(".home-header-about");
   const navHtml = ` 
@@ -14,7 +13,7 @@ function topHeader() {
               </ul>
           </nav>
       `;
-  aboutHeader.innerHTML = navHtml
+  aboutHeader.innerHTML = navHtml;
 }
 
 function footAbout() {
@@ -23,10 +22,8 @@ function footAbout() {
           <p>My Learning Journal</p>
           <small>Copyright &#169 2025</small>
       `;
-  foot.innerHTML = footerHtml
+  foot.innerHTML = footerHtml;
 }
-
-
 
 function aboutMe() {
   let html = `<div class="img-blog"> 
@@ -48,7 +45,6 @@ function midContent() {
     .join("");
 }
 
-
 function blog() {
   let blogHtml = "";
 
@@ -60,9 +56,9 @@ function blog() {
                     <p>${blogPosts[i].text}</p>
                 </div>`;
   }
-  midParaAbout.innerHTML += blogHtml;
+  midParaAbout.innerHTML += `<h3 class="recentPosts">Recent Posts</h3>`;
+  midParaAbout.innerHTML += `<div class="blog-div">${blogHtml}</div>`
 }
-
 
 topHeader();
 

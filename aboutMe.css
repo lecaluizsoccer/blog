@@ -52,3 +52,32 @@
 .mid-paragraph-about {
     margin-bottom: 1em;
 }
+
+.recentPosts {
+    text-align: center;
+    margin-top: 2.5em;
+}
+
+
+@media (min-width: 768px) {
+    .blog-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "b3 b4 b5"
+        ;
+        gap: 0 1em;
+    }
+
+
+    .home-blog-3{
+        grid-area: b3;
+
+    }
+    .home-blog-4{
+        grid-area: b4;
+    }
+    .home-blog-5{
+        grid-area: b5;
+    }
+}
