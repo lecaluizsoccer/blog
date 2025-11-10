@@ -1,0 +1,54 @@
+.about-main {
+    display: grid;
+    grid-template-columns: 1em 1fr 1em;
+    grid-auto-rows: auto;
+    grid-template-areas:
+    ".. hh .."
+    ".. th .."
+    ".. mpa .."
+    ".. b1 .."
+    ".. b2 .."
+    ".. b3 .."
+    ;
+
+     gap: 0 1em;
+}
+
+
+.home-header-about {
+    grid-area: hh;
+}
+
+.top-header-about {
+    grid-area: th;
+}
+
+.mid-paragraph-about{
+    grid-area: mpa;
+}
+
+.home-blog-1 {
+    grid-area: b1;
+}
+.home-blog-2 {
+    grid-area: b2;
+}
+.home-blog-3 {
+    grid-area: b3;
+}
+
+.img-blog img {
+    width: 11em;
+    height: 11em;
+    border-radius: 50%;
+    margin: 1em 0;
+}
+
+.mid-title-about {
+
+    margin-bottom: 1em;
+
+}
+.mid-paragraph-about {
+    margin-bottom: 1em;
+}

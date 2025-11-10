@@ -4,12 +4,11 @@ const main = document.querySelector(".home-main");
 const foot = document.querySelector(".home-footer");
 
 function topHeader() {
-  const topHeader = document.querySelector(".top-header").innerHTML = `
+  const topHeader = (document.querySelector(".top-header").innerHTML = `
     <date>${blogPosts[0].date}</date>
     <h1>${blogPosts[0].title}</h1>
-    <p>${blogPosts[0].text}</p>`
-
-  }
+    <p>${blogPosts[0].text}</p>`);
+}
 
 function midParagragh() {
   const midParagraph = document.querySelector(".mid-paragraph");
@@ -37,37 +36,33 @@ function blog() {
                     <p>${blogPosts[i].text}</p>
                 </div>`;
   }
-main.innerHTML += blogHtml;
+  main.innerHTML += blogHtml;
 }
 
+function navBar() {
+  document.querySelector(".home-header").innerHTML = header;
+}
 
-function navBar(){document.querySelector(".home-header").innerHTML = header}
-
-
-function footPage(){
+function footPage() {
   foot.innerHTML = footer;
 }
 
-     // NavBar
+// NavBar
 
- navBar()
+navBar();
 
-    //   TOP HEADER
+//   TOP HEADER
 
-topHeader()
+topHeader();
 
+//   MID PARAGRAPH
 
-   //   MID PARAGRAPH
+midParagragh();
 
-midParagragh()
+//        BLOGS
 
+blog();
 
-   //        BLOGS   
+// footer
 
-blog()
-
-  // footer
-
-footPage()
-
-
+footPage();

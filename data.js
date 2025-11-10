@@ -84,15 +84,14 @@ export const fateData = [
     title: "How I stay committed to learning",
     content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quisquam, dolor placeat obcaecati tenetur 
     inventore omnis aperiam consequatur impedit aliquid et sunt. Sint iusto voluptate cupiditate rerum hic 
-    molestiae unde!`
+    molestiae unde!`,
   },
   {
     title: "How it got started",
     content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore possimus eveniet autem in et eum omnis 
-    laborum laudantium aliquam! Tempore quaerat laudantium esse possimus dolorum quo est cum iure veniam!`
-  }
+    laborum laudantium aliquam! Tempore quaerat laudantium esse possimus dolorum quo est cum iure veniam!`,
+  },
 ];
-
 
 export const header = `
 
@@ -101,7 +100,7 @@ export const header = `
       <ul>
         <li class="learning"><a href="./index.html">My Learning Journal</a></li>
         <li class="home"><a href="./home.html">HOME</a></li>
-        <li class="about"><a href="">ABOUT ME</a></li>
+        <li class="about"><a href="./aboutMe.html">ABOUT ME</a></li>
       </ul>
     </nav>
   </header>
@@ -111,3 +110,15 @@ export const footer = `
         <p>My Learning Journal</p>
         <small>Copyright &#169 2025</small>
     `;
+
+// data.js
+
+export const profileData = {
+  image: "./images/profile.jpg",
+  altText: "Leandro smiling in a casual portrait",
+  title: "Hi there! My name is Leandro and welcome to my learning journal",
+  description: `After several months of learning in the Frontend Developer Career Path, 
+           I've made a big jump over to Bootcamp to get expert code reviews of my 
+           Solo Projects projects and meet like-minded peers.`
+};
+
