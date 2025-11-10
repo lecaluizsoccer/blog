@@ -69,15 +69,15 @@ date {
     font-weight: 700;
 }
 
-.home-blog-1 {
+.home-blog-2 {
     grid-area: b1;
 }
 
-.home-blog-2 {
+.home-blog-3 {
     grid-area: b2;
 }
 
-.home-blog-3 {
+.home-blog-4 {
     grid-area: b3;
 }
 

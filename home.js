@@ -28,7 +28,7 @@ function midParagragh() {
 function blog() {
   let blogHtml = "";
 
-  for (let i = 0; i <= 2; i++) {
+  for (let i = 1; i <= 3; i++) {
     blogHtml += `<div class="home-blog home-blog-${i + 1}">
                     <img src="${blogPosts[i].img}" alt="${blogPosts[i].alt}">
                     <date class="date">${blogPosts[i].date}</date>
