@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    line-height: 1.5;
+    line-height: 1.25;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 main {
     display: grid;
-    grid-template-columns: 1em 1fr 1em;
+    grid-template-columns: 0.25em 1fr 0.25em;
     grid-auto-rows: auto;
     grid-template-areas:
         "a a a"
@@ -21,8 +23,16 @@ main {
     gap: 0 1em;
 }
 
+p {
+  text-align: left;
+  line-height: 1.6;
+}
+
+
+
 .img-blog {
     padding-bottom: 1em;
+    font-weight: 400;
 
 }
 
@@ -39,33 +49,42 @@ main {
     flex-direction: column;
     justify-content: end;
 
-    color: #D7D7D7;
+    color: #FFFFFF;
     padding: 0 2em 1em;
     font-size: 0.75rem;
-    text-shadow:  0.016em  0.016em black;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .blog-1 p {
     font-weight: 600;
 }
+.blog-1 h1 {
+    font-size: 2rem;
+}
 
 .blog-2 {
     grid-area: b;
+   
 }
 .blog-3 {
     grid-area: c;
+   
 }
 .blog-4 {
     grid-area: d;
+    
 }
 .blog-5 {
     grid-area: e;
+    
 }
 .blog-6 {
     grid-area: f;
+    
 }
 .blog-7 {
     grid-area: g;
+   
 }
 
 img {
@@ -78,6 +97,7 @@ img {
 .date {
     display: block;
     margin-top: 0.5em;
+    font-size: 0.875rem;
 }
 
 ul {
@@ -93,11 +113,12 @@ ul li a {
 
 .home {
     margin: 0 2em 0 auto;
+    font-size: 0.75rem
 }
 
 .learning a{
     margin-left: 1em;
-    font-size: 0.85rem;
+    font-size: 0.875rem;
     font-weight: 900;
     text-decoration: none;
     color: black;
@@ -106,6 +127,7 @@ ul li a {
 
 .about {
     margin-right: 1em;
+    font-size: 0.75rem
 }
 
 nav {
@@ -123,7 +145,7 @@ ul {
 .view-more a {
     text-decoration: none;
     color: black;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .view-more {
@@ -137,12 +159,28 @@ footer {
     display: flex;    
     text-decoration: none;
     color: black;
-    font-weight: 600;
+    font-weight: 700;
     flex-direction: column;
     align-items: center;
     padding: 1em;
     background-color: #202020;
-     color: #D7D7D7;
+    
+}
+
+footer p {
+    color: #D7D7D7;
+    font-size: 0.75rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+footer small {
+    color: #D7D7D7;
+    font-size: 0.75rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    font-weight: 400;
+    
+;
 }
 
 
@@ -164,7 +202,6 @@ footer {
   }
 
  .blog-1 { 
-    font-size: 1.25rem;
     text-shadow:  0.016em  0.016em black;
     height: 25em;
  }

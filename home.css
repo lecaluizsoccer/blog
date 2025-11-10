@@ -12,7 +12,7 @@ body {
 
 .home-main {
     display: grid;
-    grid-template-columns: 1em 1fr 1em;
+    grid-template-columns: 0.25em 1fr 0.25em;
     grid-auto-rows: auto;
     grid-template-areas:
     ".. the .."
@@ -29,6 +29,8 @@ body {
 
 p {
     font-size: 1rem;
+    text-align: justify;
+
 }
 
 
@@ -43,6 +45,10 @@ p {
 }
 
 date {
+    font-size: 0.75rem;
+}
+
+.home-blog .date {
     font-size: 0.75rem;
 }
 
@@ -65,8 +71,13 @@ date {
     grid-area: rpo;
     text-align: center;
     padding: 3em 0 0.5em;
+   
+}
+
+.recent-posts h3 {
     font-size: 1rem;
     font-weight: 700;
+
 }
 
 .home-blog-2 {
@@ -82,7 +93,7 @@ date {
 }
 
 .blog-title {
-    font-size: 1.625rem;
+    font-size: 1.5rem;
 }
 
 h2 {
@@ -112,9 +123,18 @@ img {
 
 .home-blog img {
     padding-bottom: 0.75em;
+    font-weight: 400;
 }
 
+footer small {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
 
+footer p {
+    font-size: 0.75rem;
+    font-weight: 700;
+}
 
 @media (min-width: 768px) {
      

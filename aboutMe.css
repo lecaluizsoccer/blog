@@ -38,8 +38,8 @@
 }
 
 .img-blog img {
-    width: 11em;
-    height: 11em;
+    width: 11.375em;
+    height: 11.375em;
     border-radius: 50%;
     margin: 1em 0;
 }
@@ -56,6 +56,8 @@
 .recentPosts {
     text-align: center;
     margin-top: 2.5em;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 

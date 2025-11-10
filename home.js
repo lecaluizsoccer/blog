@@ -1,7 +1,7 @@
 import { blogPosts, fateData, header, footer } from "./data.js";
 
 const main = document.querySelector(".home-main");
-const foot = document.querySelector(".home-footer");
+const foot = document.querySelector("footer");
 
 function topHeader() {
   const topHeader = (document.querySelector(".top-header").innerHTML = `
