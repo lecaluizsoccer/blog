@@ -18,7 +18,7 @@ function homePage() {
             <div class="img-blog blog-${index + 1}">
                 <img src="${data.img}" alt="${data.alt}">
                 <date class="date">${data.date}</date>
-                <h1>${data.title}</h1>
+                <h2>${data.title}</h2>
                 <p>${data.text}</p>
             </div>
             `;

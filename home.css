@@ -29,12 +29,14 @@ body {
 
 p {
     font-size: 1rem;
-    text-align: justify;
+
+  
 
 }
 
 
 .top-header {
+    margin-top: 3em;
     grid-area: the;
     width: 100%;
 }
@@ -109,7 +111,7 @@ img {
 }
 
 .mid-paragraph h2{
-    padding: 0.5em 0;
+    padding: 1.25em 0;
 }
 
 .home-blog {
