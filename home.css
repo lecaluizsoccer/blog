@@ -141,7 +141,7 @@ footer p {
 @media (min-width: 768px) {
      
     .home-main  {
-        grid-template-columns: 2em 1fr 1fr 1fr 2em;
+        grid-template-columns: 0.5em 1fr 1fr 1fr 0.5em;
         grid-auto-rows: auto;
         grid-template-areas:
         ".. the the the .."
