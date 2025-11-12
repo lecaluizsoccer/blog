@@ -75,6 +75,33 @@ export const blogPosts = [
     img: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
     alt: "",
   },
+  {
+    id: 8,
+    date: "November 7, 2025",
+    title: "Exploring Modern JavaScript",
+    text: `I spent this week diving into ES2025 features, understanding new syntax, 
+           and exploring best practices for asynchronous programming.`,
+    img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    alt: "",
+  },
+  {
+    id: 9,
+    date: "November 8, 2025",
+    title: "CSS Grid vs Flexbox",
+    text: `A comparison of CSS Grid and Flexbox for layout design, 
+           including when to use one over the other for responsive web pages.`,
+    img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    alt: "",
+  },
+  {
+    id: 10,
+    date: "November 9, 2025",
+    title: "Deploying My First App",
+    text: `I successfully deployed my first full-stack application on Vercel, 
+           and documented the steps, pitfalls, and key learnings.`,
+    img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    alt: "",
+  },
 ];
 
 // mid text for home
@@ -119,6 +146,5 @@ export const profileData = {
   title: "Hi there! My name is Leandro and welcome to my learning journal",
   description: `After several months of learning in the Frontend Developer Career Path, 
            I've made a big jump over to Bootcamp to get expert code reviews of my 
-           Solo Projects projects and meet like-minded peers.`
+           Solo Projects projects and meet like-minded peers.`,
 };
-

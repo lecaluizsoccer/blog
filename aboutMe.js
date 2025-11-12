@@ -57,7 +57,7 @@ function blog() {
                 </div>`;
   }
   midParaAbout.innerHTML += `<h3 class="recentPosts">Recent Posts</h3>`;
-  midParaAbout.innerHTML += `<div class="blog-div">${blogHtml}</div>`
+  midParaAbout.innerHTML += `<div class="blog-div">${blogHtml}</div>`;
 }
 
 topHeader();
